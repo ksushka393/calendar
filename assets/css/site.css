@@ -1,0 +1,108 @@
+body, html {
+    height: 100%;
+}
+.column{
+	border-left: solid black;
+}
+.left-col{
+	/*background-color: red;*/
+}
+.left-col img {
+	width: 50%;
+	margin: 15px auto;
+}
+.left-col ul {
+	list-style-type: none;
+	font-size: 25px;  
+	border-top: solid grey 1.5px;
+	border-bottom: solid grey 1.5px;
+	padding: 30px;
+}
+.left-col ul li{
+	margin-bottom: 12px;
+}
+.left-col .fa {
+	font-size: 35px;
+}
+.left-col .socnets{
+	text-align: center;
+	padding-top: 15px; 
+}
+.left-col .socnets a:not(:last-child){
+	margin-right: 15px;
+}
+
+.mid-col{
+	/*background-color: blue;*/
+}
+.mid-col h1{
+	padding-left: 30px;
+	margin-bottom: 55px;
+}
+.mid-col .event img{
+	width: 80%;
+	padding-top: 10px;
+	padding-bottom: 15px; 
+}
+.mid-col .mw{
+  font-weight:bold;
+  font-style: oblique;
+  	text-align: center;
+}
+.mid-col .notes div{
+	
+	display: inline-block;
+	margin: 5px auto;
+	text-align: center;
+}
+.mid-col .day div{
+	text-align: center;
+}
+.right-col{
+	/*background-color: black;*/
+}
+.right-col h2{
+	padding: 15px;
+}
+.right-col .interesting > div:not(:last-child){
+	margin-bottom: 30px;
+}
+.right-col .interesting > div h3{
+	font-weight: 700;
+}
+/* xs*/
+@media(max-width:767px){
+}
+/* sm*/
+@media(min-width:768px){
+	.calendar, .event{
+		text-align: center;
+	}
+	.event img{
+		margin: 0 auto;
+	}
+	.column{
+		padding: 30px;
+		border-bottom: solid black; 
+	}
+}
+/* md*/
+@media(min-width:992px){
+	.column{
+		height:100%;
+	}
+	
+	.calendar, .event{
+		text-align: left;
+	}
+	.event img{
+		margin: 0;
+	}
+	.column{
+		border-bottom: none;
+	}
+}
+/* lg*/
+@media(min-width:1200px){
+
+}
